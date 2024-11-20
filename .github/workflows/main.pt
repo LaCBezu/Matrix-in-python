@@ -1,0 +1,9 @@
+import torch
+
+# Define your matrix (example: a 2x2 matrix)
+matrix = torch.tensor([[1, 2], [3, 4]], dtype=torch.float32)
+
+# Save the matrix to a .pt file
+torch.save(matrix, "matrix.pt")
+
+print("Matrix saved to matrix.pt")
